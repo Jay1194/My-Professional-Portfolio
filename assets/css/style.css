@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: rgba(14, 12, 12, 0.856);
+  }
+  header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: #ffffff;
+    margin: 0;
+    display: inline;
+    font-family:monospace;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    margin: 0 50px;
+    font-weight: lighter;
+    font-size: 22px;
+    color:rgb(233, 245, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  
+  section {
+    padding: 90px;
+  }
+
+  h2 { 
+   color: rgb(5, 15, 43);
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+
+  }
+  .hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image:url("https://wallpaperaccess.com/full/346851.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+header a{
+ text-decoration: none;
+ }   
